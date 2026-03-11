@@ -5,6 +5,106 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.4] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.6] and [0.4] and humidity between [0.8] and [1]",
+			"Always Fertility [+3] for Map Generation",
+			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+			"Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Snow] Regions>",
+            "Considered [Food] when determining start locations <in [Desert] Regions>",
+            "Considered [Food] when determining start locations <in [Hill] Regions>",
+            "Considered [Food] when determining start locations <in [Plains] Regions>",
+			"Considered [Food] when determining start locations <in [Grassland] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>",]
+    },
+	{
+		"name": "Plains",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+        "RGB": [153, 180, 51],
+        "uniques": [
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.6] and [1]",
+			"[+4] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+            "A Region can not contain more [Grassland] tiles than [Plains] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Snow] Regions>",
+            "Considered [Food] when determining start locations <in [Desert] Regions>",
+            "Considered [Food] when determining start locations <in [Hill] Regions>",
+            "Considered [Food] when determining start locations <in [Plains] Regions>",
+			"Considered [Food] when determining start locations <in [Grassland] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+		]
+    },
+	{
+		"name": "Snow",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [97, 124, 168],
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.6] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.6]",
+            "Always Fertility [-1] for Map Generation",
+            "A Region is formed with at least [25]% [Snow] tiles, with priority [4]",
+            "Considered [Undesirable] when determining start locations <in all except [Snow] Regions>",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+		]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+        "RGB": [160, 109, 120],
+        "uniques": [
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.4] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+		]
     }
+	{
+		"name": "Rocks",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+        "RGB": [65, 64, 68],
+        "uniques": [
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [1] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.6] and [1] and humidity between [0.6] and [1]",
+            "Always Fertility [-1] for Map Generation",
+			"A Region is formed with at least [25]% [Rocks] tiles, with priority [4]",
+            "Considered [Undesirable] when determining start locations <in all except [Rocks] Regions>",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+		]
+    }
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [79, 98, 117],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
+	},
 ]
