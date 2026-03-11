@@ -1,0 +1,11 @@
+[
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +2 Production]","Removes removable features when built",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+		]
+	},
+]
