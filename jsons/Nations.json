@@ -1,0 +1,45 @@
+[
+    {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+    {
+		"name": "Bureau of Paranormal Activities",
+		"leaderName": "WIPLeader1",
+		"startBias": ["Urban Sprawl"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+        "startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.","attacked": "Sample text.","defeated": "Sample text.",
+		"introduction": "Sample text.","neutralHello": "Sample text.","hateHello": "Sample text.","tradeRequest": "Sample text.",
+        "outerColor": [255,255,255],"innerColor": [0,0,0],
+		"uniqueName": "Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+            "405 Array Avenue","77 Tom Road","Area 51","Plant 42","Cheyenne Mountain Complex","The Rock","Seattle","Camp Peary","Dugway Proving Ground","Trinity Site",
+			"Granite Mountain",
+        ]
+	},
+	{
+		"name": "Zeta Reticulans",
+		"leaderName": "WIPLeader5",
+		"startBias": ["Urban Sprawl"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+        "startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.","attacked": "Sample text.","defeated": "Sample text.",
+		"introduction": "Sample text.","neutralHello": "Sample text.","hateHello": "Sample text.","tradeRequest": "Sample text.",
+		"outerColor": [179, 202, 199],"innerColor": [0, 0, 0],
+		"uniqueName": "Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"TMP1","TMP2","TMP3","TMP4","TMP5"
+		],
+    },
+]
