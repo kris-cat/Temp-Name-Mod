@@ -6,7 +6,6 @@
     {
 		"name": "Bureau of Paranormal Activities",
 		"leaderName": "WIPLeader1",
-		"startBias": ["Urban Sprawl"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
@@ -26,7 +25,6 @@
 	{
 		"name": "Zeta Reticulans",
 		"leaderName": "WIPLeader5",
-		"startBias": ["Urban Sprawl"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
