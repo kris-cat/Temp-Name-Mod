@@ -11,7 +11,7 @@ TileSets/FantasyHex/Tiles/Desert
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Fungal Forests
+TileSets/FantasyHex/Tiles/Fungal Forest
   rotate: false
   xy: 44, 10
   size: 32, 30
