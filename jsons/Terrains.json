@@ -243,7 +243,7 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
-			"[-3] Sight"
+			"[-5] Sight"
 		],
 	},
 	{
