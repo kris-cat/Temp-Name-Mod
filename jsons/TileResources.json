@@ -40,7 +40,7 @@
 	{
 		"name": "Red Mercury",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Snow","Rock","Wetland"],
+		"terrainsCanBeFoundOn": ["Desert","Coast","Snow","Rocks","Wetland"],
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
