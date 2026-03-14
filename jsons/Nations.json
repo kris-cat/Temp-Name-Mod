@@ -40,4 +40,41 @@
 			"TMP1","TMP2","TMP3","TMP4","TMP5"
 		],
     },
+	{
+		"name": "Papal Inquisition",
+		"leaderName": "WIPLeader3",
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.","attacked": "Sample text.","defeated": "Sample text.",
+		"introduction": "Sample text.","neutralHello": "Sample text.","hateHello": "Sample text.","tradeRequest": "Sample text.",
+		"outerColor": [255, 191, 0],"innerColor": [255, 255, 255],
+		"uniqueName": "Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+        "spyNames": ["Pierre","Tomas","Luis"]
+    },
+	{
+		"name": "Infernal Legion",
+		"leaderName": "WIPLeader5",
+		"startBias": ["Blessed Relics"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.","declaringWar": "Sample text.","attacked": "Sample text.","defeated": "Sample text.",
+		"introduction": "Sample text.","neutralHello": "Sample text.","hateHello": "Sample text.","tradeRequest": "Sample text.",
+		"outerColor": [141, 40, 30],"innerColor": [255, 212, 40],
+		"uniqueName": "Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+    },
 ]
