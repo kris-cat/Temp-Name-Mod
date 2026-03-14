@@ -15,6 +15,7 @@
         "Grassland+Forest": ["Grassland","GrasslandForest"],
         "Grassland+Hill+Forest": ["Grassland","Hill","GrasslandForest"]
         "Plains+Forest": ["Plains","PlainsForest"],
+		"Plains+Hill+Forest": ["Plains","Hill","PlainsForest"]
         "Plains+Jungle": ["Plains","PlainsJungle"],
         "Tundra+Forest": ["Tundra","TundraForest"],
         "Tundra+Hill+Forest": ["Tundra","Hill","TundraForest"],
