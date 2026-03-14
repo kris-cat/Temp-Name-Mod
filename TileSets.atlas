@@ -158,3 +158,10 @@ TileSets/FantasyHex/Tiles/Snow
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/SnowForest
+  rotate: false
+  xy: 884, 8
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
