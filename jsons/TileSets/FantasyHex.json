@@ -5,6 +5,10 @@
 		// River pseudo-tile used in Civilopedia display only
 		"Grassland+River": ["Plains","River-BottomLeft","River-Bottom","River-BottomRight"],
 
+		//Flood plains
+		"Desert+Flood plains": ["DesertFlood plains"],
+		"Rocks+Flood plains": ["RocksFlood plains"],
+
         //Legacy hill support
         "Hill": ["Grassland","Hill"],
         "Hill+Forest+Uranium": ["Grassland","Hill","Uranium","Forest"],
