@@ -28,7 +28,7 @@
 			"Occurs at temperature between [-0.4] and [0.2] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [0.6] and [0.9] and humidity between [0.6] and [0.8]",
 			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
 			"Always Fertility [+3] for Map Generation",
 			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
@@ -113,7 +113,8 @@
 		"movementCost": 1,
         "RGB": [65, 64, 68],
         "uniques": [
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.2] and [0.8]",
+			"Occurs at temperature between [0.8] and [1] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.6] and [0.8]",
             "Always Fertility [-1] for Map Generation",
 			"A Region is formed with at least [25]% [Rocks] tiles, with priority [4]",
             "Considered [Undesirable] when determining start locations <in all except [Rocks] Regions>",
