@@ -181,25 +181,6 @@
 		]
 	},
 	{
-		"name": "Floating Islands",
-		"type": "TerrainFeature",
-		"production": 1,
-		"science": 1,
-		"movementCost": 1,
-		"overrideStats": true,
-		"defenceBonus": 0.00,
-		"RGB": [105,125,72],
-		"occursOn": ["Desert","Hill"],
-		"uniques": [
-			"Occurs in groups around high elevations",
-			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [40]% [Floating Islands] tiles, with priority [5]",
-			"Base Terrain on this tile is not counted for Region determination",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations"
-		]
-	},
-	{
 		"name": "Lava Lake",
 		"type": "TerrainFeature",
 		"gold": 2,
@@ -262,6 +243,25 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations"
 		],
+	},
+	{
+		"name": "Floating Islands",
+		"type": "TerrainFeature",
+		"production": 1,
+		"science": 1,
+		"movementCost": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.00,
+		"RGB": [105,125,72],
+		"occursOn": ["Desert","Hill"],
+		"uniques": [
+			"Vegetation",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Floating Islands] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations"
+		]
 	},
 	{
 		"name": "Flood plains",
