@@ -173,7 +173,8 @@
 			"A Region is formed with at least [40]% [Fissure] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
 			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations"
+			"Considered [Production] when determining start locations",
+			"Becomes [Hill] when adjacent to [River]",
 		]
 	},
 	{
