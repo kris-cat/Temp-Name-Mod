@@ -152,6 +152,25 @@
 		]
 	},
 	{
+		"name": "Floating Islands",
+		"type": "TerrainFeature",
+		"production": 1,
+		"science": 1,
+		"movementCost": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.00,
+		"RGB": [105,125,72],
+		"occursOn": ["Desert"],
+		"uniques": [
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Floating Islands] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations"
+		]
+	},
+	{
 		"name": "Lava Lake",
 		"type": "TerrainFeature",
 		"gold": 2,
@@ -174,7 +193,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Grassland","Hill"],
+		"occursOn": ["Grassland","Plains","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
