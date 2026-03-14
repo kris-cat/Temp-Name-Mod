@@ -1,236 +1,271 @@
 
 TileSets.png
-size: 256, 256
+size: 2048, 64
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Ambrosia
   rotate: false
-  xy: 4, 195
+  xy: 4, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coast
   rotate: false
-  xy: 44, 195
+  xy: 44, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Cosmic Weave
+  rotate: false
+  xy: 84, 8
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 84, 195
+  xy: 124, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertFlood plains
   rotate: false
-  xy: 124, 195
+  xy: 164, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertHill
   rotate: false
-  xy: 164, 191
+  xy: 204, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dodo
   rotate: false
-  xy: 204, 195
+  xy: 244, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fissure
   rotate: false
-  xy: 4, 155
+  xy: 284, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Floating Islands
   rotate: false
-  xy: 44, 152
+  xy: 324, 5
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fungal Forest
   rotate: false
-  xy: 84, 157
+  xy: 364, 10
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 124, 159
+  xy: 404, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandForest
   rotate: false
-  xy: 204, 156
+  xy: 444, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Hadesian Iron
+  rotate: false
+  xy: 484, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Haunted Overgrowth
   rotate: false
-  xy: 164, 152
+  xy: 524, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 124, 119
+  xy: 564, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ice
   rotate: false
-  xy: 84, 121
+  xy: 604, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ice Spikes
   rotate: false
-  xy: 204, 112
+  xy: 644, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Island Chain
   rotate: false
-  xy: 4, 119
+  xy: 684, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lava Lake
   rotate: false
-  xy: 44, 116
+  xy: 724, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lemurian Spice
+  rotate: false
+  xy: 764, 8
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ley Line
+  rotate: false
+  xy: 804, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mantle Matter
   rotate: false
-  xy: 84, 85
+  xy: 844, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 124, 75
+  xy: 884, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean
   rotate: false
-  xy: 164, 83
+  xy: 924, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Orichalcum
   rotate: false
-  xy: 4, 80
+  xy: 964, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 44, 80
+  xy: 1004, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsForest
   rotate: false
-  xy: 204, 72
+  xy: 1044, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Red Mercury
   rotate: false
-  xy: 84, 49
+  xy: 1084, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-Bottom
   rotate: false
-  xy: 164, 47
+  xy: 1124, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-BottomLeft
   rotate: false
-  xy: 4, 44
+  xy: 1164, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-BottomRight
   rotate: false
-  xy: 44, 44
+  xy: 1204, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks
   rotate: false
-  xy: 124, 39
+  xy: 1244, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/RocksFlood plains
   rotate: false
-  xy: 204, 36
+  xy: 1284, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/RocksHill
   rotate: false
-  xy: 84, 9
+  xy: 1324, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 164, 11
+  xy: 1364, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowForest
   rotate: false
-  xy: 4, 4
+  xy: 1404, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Unobtainium
+  rotate: false
+  xy: 1444, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Wetland
   rotate: false
-  xy: 44, 8
+  xy: 1484, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
