@@ -1,75 +1,96 @@
 
 TileSets.png
-size: 512, 64
+size: 128, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 4, 12
+  xy: 4, 200
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Fissure
+  rotate: false
+  xy: 4, 160
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Fungal Forest
   rotate: false
-  xy: 44, 10
+  xy: 44, 198
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fungal Forests
+  rotate: false
+  xy: 4, 122
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 84, 12
+  xy: 84, 200
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandForest
   rotate: false
-  xy: 124, 9
+  xy: 4, 83
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Haunted Overgrowth
   rotate: false
-  xy: 164, 9
+  xy: 4, 44
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 204, 8
+  xy: 4, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 244, 4
+  xy: 44, 116
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 284, 12
+  xy: 84, 164
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks
   rotate: false
-  xy: 324, 12
+  xy: 84, 128
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/RocksHill
+  rotate: false
+  xy: 84, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 364, 12
+  xy: 84, 52
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
