@@ -14,7 +14,7 @@
         "Hill+Forest+Uranium": ["Grassland","Hill","Uranium","Forest"],
         "Hill+Forest+Furs": ["Grassland","Hill","Furs","HillForest"],
         "Hill+Forest+Deer": ["Grassland","Hill","Deer","HillForest"],
-
+		
         //Special forest and jungle
         "Grassland+Forest": ["Grassland","GrasslandForest"],
         "Grassland+Hill+Forest": ["Grassland","Hill","GrasslandForest"]
@@ -26,8 +26,9 @@
 		"Snow+Forest": ["Snow","SnowForest"],
         "Snow+Hill+Forest": ["Snow","Hill","SnowForest"],
 
-        //Special Urban Sprawl
+        //Hill Variants
         "Rocks+Hill": ["Rocks","RocksHill"],
+		"Desert+Hill": ["Rocks","DesertHill"],
         //Snow improvements for Tundra and Snow
         //TODO hill and forest variants + new images for Landmark, etc.
         "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
