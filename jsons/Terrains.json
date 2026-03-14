@@ -264,6 +264,20 @@
 		]
 	},
 	{
+		"name": "Wetland",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": [
+			"Rare feature","Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"[-2] to Fertility for Map Generation",
+			"Every [99] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+	},
+	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 2,
