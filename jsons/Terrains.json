@@ -22,7 +22,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [53, 81, 84],
         "uniques": [
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [-0.4] and [0.2] and humidity between [0.3] and [0.4]",
@@ -49,7 +49,7 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-        "RGB": [153, 180, 51],
+        "RGB": [60, 108, 102],
         "uniques": [
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.5]",
