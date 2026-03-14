@@ -85,6 +85,7 @@
             "A Region is formed with at least [25]% [Snow] tiles, with priority [4]",
             "Considered [Undesirable] when determining start locations <in all except [Snow] Regions>",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Becomes [Ice Spikes] when adjacent to [Ice Spikes]",
 		]
 	},
 	{
