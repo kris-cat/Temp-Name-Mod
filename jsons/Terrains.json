@@ -245,6 +245,23 @@
 		],
 	},
 	{
+		"name": "Ice Spikes",
+		"type": "TerrainFeature",
+		"food",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Snow","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations"
+		],
+	},
+	{
 		"name": "Floating Islands",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -287,6 +304,16 @@
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Island Chain",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"defenceBonus": 0.25,
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
 	},
 	{
         "name": "River",
