@@ -314,7 +314,9 @@
 		"production": 1,
 		"defenceBonus": 0.25,
 		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
+		"uniques": [
+			"Occurs in groups around high elevations",
+		]
 	},
 	{
         "name": "River",
