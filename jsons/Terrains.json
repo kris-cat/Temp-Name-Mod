@@ -40,7 +40,9 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
-            "Considered [Food] when determining start locations <in [Hybrid] Regions>",]
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Becomes [Forest] when adjacent to [Haunted Overgrowth]",
+		]
     },
 	{
 		"name": "Plains",
