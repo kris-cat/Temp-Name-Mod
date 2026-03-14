@@ -130,6 +130,40 @@
 		]
 	},
 	{
+		"name": "Forest",
+		"type": "TerrainFeature",
+		"production": 1,
+		"food": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Grassland","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations"
+		],
+	},
+	{
+		"name": "Haunted Overgrowth",
+		"type": "TerrainFeature",
+		"production": 1,
+		"food": 1,
+		"movementCost": 3,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Grassland","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[-3] Sight"
+		],
+	},
+	{
 		"name": "Fungal Forest",
 		"type": "TerrainFeature",
 		"food": 2,
