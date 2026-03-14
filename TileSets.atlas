@@ -123,7 +123,7 @@ TileSets/FantasyHex/Tiles/Lava Lake
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Matle Matter
+TileSets/FantasyHex/Tiles/Mantle Matter
   rotate: false
   xy: 84, 85
   size: 32, 28
