@@ -53,7 +53,7 @@ TileSets/FantasyHex/Tiles/Dodo
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Enchanted Apple Tree
+TileSets/FantasyHex/Tiles/Enchanted Apples
   rotate: false
   xy: 284, 12
   size: 32, 28
