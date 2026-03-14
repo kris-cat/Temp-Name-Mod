@@ -247,7 +247,7 @@
 	{
 		"name": "Ice Spikes",
 		"type": "TerrainFeature",
-		"food",
+		"food": 1,
 		"production": 2,
 		"movementCost": 2,
 		"overrideStats": true,
