@@ -6,35 +6,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 4, 200
+  xy: 4, 198
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fissure
   rotate: false
-  xy: 4, 160
+  xy: 4, 158
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fungal Forest
   rotate: false
-  xy: 44, 198
-  size: 32, 30
-  orig: 32, 30
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Fungal Forests
-  rotate: false
-  xy: 4, 122
+  xy: 44, 196
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 84, 200
+  xy: 4, 122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -60,37 +53,44 @@ TileSets/FantasyHex/Tiles/Hill
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Lava Lake
+  rotate: false
+  xy: 84, 198
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 44, 116
+  xy: 44, 114
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 84, 164
+  xy: 84, 162
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks
   rotate: false
-  xy: 84, 128
+  xy: 84, 126
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/RocksHill
   rotate: false
-  xy: 84, 88
+  xy: 84, 86
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 84, 52
+  xy: 84, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
