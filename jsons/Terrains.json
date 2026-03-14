@@ -318,6 +318,16 @@
 		]
 	},
 	{
+		"name": "Ice",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": ["Ocean", "Coast"],
+		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+					"[-1] to Fertility for Map Generation",
+					"Considered [Undesirable] when determining start locations"]
+	},
+	{
         "name": "River",
         "type": "TerrainFeature",
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
