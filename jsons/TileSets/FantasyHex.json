@@ -28,7 +28,7 @@
 
         //Hill Variants
         "Rocks+Hill": ["Rocks","RocksHill"],
-		"Desert+Hill": ["Rocks","DesertHill"],
+		"Desert+Hill": ["Desert","DesertHill"],
         //Snow improvements for Tundra and Snow
         //TODO hill and forest variants + new images for Landmark, etc.
         "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
