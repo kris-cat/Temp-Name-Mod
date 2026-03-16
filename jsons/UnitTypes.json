@@ -2,6 +2,7 @@
     {
         "name": "Civilian","movementType": "Land"
     },
+    //Bureau of Paranormal Activities
     {
         "name": "BPAUGVH","movementType": "Land"
     },
@@ -42,12 +43,28 @@
         "name": "BPAFS","movementType": "Air"
     },
     {
-        "name": "BPASHG","movementType": "Air"
+        "name": "BPASHG","movementType": "Water"
     },
     {
-        "name": "BPASHH","movementType": "Air"
+        "name": "BPASHH","movementType": "Water"
     },
     {
-        "name": "BPASHT","movementType": "Air"
+        "name": "BPASHT","movementType": "Water"
+    },
+    //Infernal Legion
+    {
+        "name": "ILCL","movementType": "Land"
+    },
+    {
+        "name": "ILLF","movementType": "Land"
+    },
+    {
+        "name": "ILSD","movementType": "Land"
+    },
+    {
+        "name": "ILIS","movementType": "Land"
+    },
+    {
+        "name": "ILIF","movementType": "Land"
     },
 ]
