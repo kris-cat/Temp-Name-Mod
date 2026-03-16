@@ -15,4 +15,123 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
+	//Bureau of Paranormal Activities
+	{
+		"name": "Government Man",
+		"unitType": "Civilian","uniqueTo": "Bureau of Paranormal Activities","replaces": "Settler",
+		"movement": 2,"cost": 100,
+		"uniques": ["Founds a new city <by consuming this unit>",]
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "UGV 'Handyman'",
+		"unitType": "BPAUGVH","uniqueTo": "Bureau of Paranormal Activities","replaces": "Worker",
+		"movement": 2,"cost": 120
+		"uniques": [
+			"Mechanical","Robot","Worker",
+			"Can build [Land] improvements on tiles", "Automation is a primary action"
+		],
+	},
+	{
+		"name": "Squad Commander",
+		"unitType": "BPASM","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 2,"strength": 53,"cost": 150,
+		"uniques": [
+			"Organic","Human","Infantry","Leader",
+			"Consumes [1] [Leadership Point]",
+			"[+15]% Strength bonus for [Infantry] units within [2] tiles",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bureau Ranger",
+		"unitType": "BPABR","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 2,"strength": 50,"cost": 120,
+		"uniques": [
+			"Organic","Human","Infantry",
+			"Can move after attacking","Ignores Zone of Control",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bureau Grenadier",
+		"unitType": "BPABG","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 2,"strength": 50,"cost": 120,
+		"uniques": [
+			"Organic","Human","Infantry",
+			"[+50]% Strength <vs cities>",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bureau Marksman",
+		"unitType": "BPABM","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 2,"strength": 42,"range": 2,"rangedStrength": 45,"cost": 120,
+		"uniques": [
+			"Organic","Human","Infantry",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "B-01 'Dornan' Exosuit",
+		"unitType": "BPAB01","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 2,"strength": 60,"cost": 200,
+		"uniques": [
+			"Organic","Human","Infantry",
+			"Consumes [2] [Mantle Matter]",
+			"[+50]% Strength <when defending> <vs [Infantry] units>"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "IFV 'Rioter'",
+		"unitType": "BPAIFVRR","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 3,"strength": 55,"cost": 225,
+		"uniques": [
+			"Mechanical","Vehicle","Light Vehicle","Transport",
+			"[+1] Movement <for [Infantry] units> <when adjacent to a [Transport] unit>",
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "UGV 'Darrell'",
+		"unitType": "BPAUGVDL","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 4,"strength": 55,"range": 1,"rangedStrength": 55,"cost": 225,
+		"uniques": [
+			"Mechanical","Vehicle","Light Vehicle","Armour",
+			"Can move after attacking", "No defensive terrain bonus",
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Black Hawk Helicopter",
+		"unitType": "BPABH","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 4,"strength": 50,"cost": 225,
+		"uniques": [
+			"Mechanical","Vehicle","Light Vehicle","Airship",
+			"Can move after attacking", "No defensive terrain bonus", "All tiles cost 1 movement",
+			"Ignores Zone of Control", "[+100]% Strength <vs [Vehicle] units>",
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Skyranger Aircraft",
+		"unitType": "BPASR","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 1,"strength": 45,"rangedStrength": 45,"range": 8,"interceptRange": 8,"cost": 175,
+		"uniques": [
+			"Mechanical","Aircraft","Fighter",
+			"Can see over obstacles", "Can perform Air Sweep",
+			"[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Airship] units>",
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Firestorm Bomber",
+		"unitType": "BPAFS","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 1,"strength": 52,"rangedStrength": 52,"range": 10,"cost": 175,
+		"uniques": [
+			"Mechanical","Aircraft","Bomber",
+		],
+		"attackSound": "bombing"
+	},
 ]
