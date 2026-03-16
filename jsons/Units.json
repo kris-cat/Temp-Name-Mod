@@ -245,7 +245,7 @@
 	{
 		"name": "Princedom",
 		"unitType": "ECPRI","uniqueTo": "Ecclesia Catholica",
-		"movement": 3,"strength": 60,,"range": 1,"cost": 65,
+		"movement": 3,"strength": 60,"cost": 65,
 		"uniques": [
 			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","[+100]% Strength <vs cities>",
 		]
