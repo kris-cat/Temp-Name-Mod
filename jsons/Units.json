@@ -184,7 +184,7 @@
 		"unitType": "ECPRC","uniqueTo": "Ecclesia Catholica",
 		"movement": 2,"strength": 50,"cost": 120
 		"uniques": [
-			"Organic","Human","Infantry","No defensive terrain penalty","[+10] Strength <when attacking>",
+			"Organic","Human","Infantry","No defensive terrain penalty","[+10] Strength <when defending>",
 		],
 	},
 	{
