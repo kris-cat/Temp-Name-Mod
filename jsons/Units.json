@@ -163,7 +163,68 @@
 		"attackSound": "shipguns"
 	},
 	//Zeta Reticulans
-	//Papal Inquisition
+	//Ecclesia  Catholica
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian","uniqueTo": "Ecclesia  Catholica","replaces": "Settler",
+		"movement": 2,"strength": 55,"cost": 100,
+		"uniques": ["Consumes [1] [Leadership Point]","Requires at least [2] population","Founds a new city <by consuming this unit>",]
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Neophyte",
+		"unitType": "ILLF","uniqueTo": "Infernal Legion","replaces": "Worker",
+		"movement": 2,"strength": 40,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","Can build [Land] improvements on tiles", "Automation is a primary action"
+		],
+	},
+	{
+		"name": "Preacher",
+		"unitType": "ILLF","uniqueTo": "Ecclesia  Catholica",
+		"movement": 2,"strength": 50,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","No defensive terrain penalty","[+10] Strength <when attacking>",
+		],
+	},
+	{
+		"name": "Evangelist",
+		"unitType": "ILLF","uniqueTo": "Ecclesia  Catholica",
+		"movement": 2,"strength": 50,"rangedStrength": 25,"range": 1,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","[+1] additional attacks per turn","[+1] additional attacks per turn <with [2] to [6] neighboring [Enemy] tiles>",
+		],
+	},
+	{
+		"name": "Chaplain",
+		"unitType": "Infantry","uniqueTo": "Ecclesia  Catholica",
+		"movement": 2,"strength": 45,"cost": 65,
+		"uniques": [
+			"Organic","Human","Infantry",
+			"All adjacent units heal [+10] HP when healing",
+			"[+10] HP when healing",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Exorcist",
+		"unitType": "Infantry","uniqueTo": "Ecclesia  Catholica",
+		"movement": 2,"strength": 45,"interceptRange": 2,"cost": 65,
+		"uniques": [
+			"Organic","Human","Infantry","Can carry [3] [Divine Punishment] units","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Airship] units>",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Divine Punishment",
+		"unitType": "ECMissile", "uniqueTo": "Ecclesia Catholica",
+		"movement": 1,"strength": 45,"rangedStrength": 45,"range": 8,"cost": 25,
+		"uniques": [
+			"[-100]% maintenance costs","[+15] Strength <vs [Magical]>"
+		],
+		"attackSound": "missile"
+	},
+	
 	//Infernal Legion
 	{
 		"name": "Cult Leader",
