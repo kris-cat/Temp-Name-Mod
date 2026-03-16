@@ -71,6 +71,24 @@
         "name": "ECEXO","movementType": "Land"
     },
     {
+        "name": "ECGUA","movementType": "Land"
+    },
+    {
+        "name": "ECARC","movementType": "Land"
+    },
+    {
+        "name": "ECPOW","movementType": "Land"
+    },
+    {
+        "name": "ECPRI","movementType": "Land"
+    },
+    {
+        "name": "ECVIR","movementType": "Land"
+    },'
+    {
+        "name": "ECPRO","movementType": "Land"
+    },
+    {
         "name": "ECMissile","movementType": "Air"
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
