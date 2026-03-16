@@ -67,4 +67,10 @@
     {
         "name": "ILIF","movementType": "Land"
     },
+    {
+        "name": "ILCT","movementType": "Land"
+    },
+    {
+        "name": "ILCBT","movementType": "Land"
+    },
 ]
