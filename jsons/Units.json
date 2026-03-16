@@ -24,7 +24,7 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "UGV 'Handyman'",
+		"name": "UGV Handyman",
 		"unitType": "BPAUGVH","uniqueTo": "Bureau of Paranormal Activities","replaces": "Worker",
 		"movement": 2,"cost": 120
 		"uniques": [
@@ -73,7 +73,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "B-01 'Dornan' Exosuit",
+		"name": "B-01 Dornan Exosuit",
 		"unitType": "BPAB01","uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 2,"strength": 60,"cost": 200,
 		"uniques": [
@@ -84,7 +84,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "IFV 'Rioter'",
+		"name": "IFV Rioter",
 		"unitType": "BPAIFVRR","uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 3,"strength": 55,"cost": 225,
 		"uniques": [
@@ -94,7 +94,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "UGV 'Darrell'",
+		"name": "UGV Darrell",
 		"unitType": "BPAUGVDL","uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 4,"strength": 55,"range": 1,"rangedStrength": 55,"cost": 225,
 		"uniques": [
@@ -133,5 +133,33 @@
 			"Mechanical","Aircraft","Bomber",
 		],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Destroyer Herring",
+		"unitType": "BPASHG","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 6,"strength": 55,"interceptRange": 2,"cost": 200,
+		"uniques": [
+			"Mechanical","Ship","Light Ship","Can see invisible [Submarine] units", "[50]% chance to intercept air attacks","Withdraws before melee combat <with [50]% chance>","[+100]% Strength <vs [Submarine] units>"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Hammerhead Submarine",
+		"unitType": "BPASHH","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 5,"strength": 40,"rangedStrength": 60,"range": 3,
+		"cost": 200,
+		"uniques": [
+			"Mechanical","Ship","Submarine","[+75]% Strength <when attacking> <vs [Ship] units>","Can only attack [Water] tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units","Can enter ice tiles",
+		],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Carrier Hornet",
+		"unitType": "BPASCH","uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 5,"strength": 40,"cost": 250,
+		"uniques": [
+			"Mechanical","Ship","Heavy Ship","Aircraft Carrier","Cannot attack","Can carry [3] [Aircraft] units",
+		],
+		"attackSound": "shipguns"
 	},
 ]
