@@ -155,7 +155,7 @@
 	},
 	{
 		"name": "Carrier Hornet",
-		"unitType": "BPASCH","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPASHT","uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,"strength": 40,"cost": 250,
 		"uniques": [
 			"Mechanical","Ship","Heavy Ship","Aircraft Carrier","Cannot attack","Can carry [3] [Aircraft] units",
