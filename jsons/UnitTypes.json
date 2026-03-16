@@ -51,6 +51,29 @@
     {
         "name": "BPASHT","movementType": "Water"
     },
+    //Eclessia Catholica
+    {
+        "name": "ECINQ","movementType": "Land"
+    },
+    {
+        "name": "ECNEO","movementType": "Land"
+    },
+    {
+        "name": "ECPRC","movementType": "Land"
+    },
+    {
+        "name": "ECEVA","movementType": "Land"
+    },
+    {
+        "name": "ECCHP","movementType": "Land"
+    },
+    {
+        "name": "ECEXO","movementType": "Land"
+    },
+    {
+        "name": "ECMissile","movementType": "Land"
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
     //Infernal Legion
     {
         "name": "ILCL","movementType": "Land"
