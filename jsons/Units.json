@@ -162,4 +162,54 @@
 		],
 		"attackSound": "shipguns"
 	},
+	//Zeta Reticulans
+	//Papal Inquisition
+	//Infernal Legion
+	{
+		"name": "Cult Leader",
+		"unitType": "Civilian","uniqueTo": "Infernal Legion","replaces": "Settler",
+		"movement": 2,"cost": 100,
+		"uniques": ["Consumes [1] [Leadership Point]","Requires at least [2] population","Founds a new city <by consuming this unit>","[+20]% Strength bonus for [{Infernal Legion} {Human}] units within [2] tiles <when attacking>"]
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Loyal Fanatic",
+		"unitType": "ILLF","uniqueTo": "Infernal Legion","replaces": "Worker",
+		"movement": 2,"strength": 40,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","[+10] Strength <when attacking>","Can build [Land] improvements on tiles", "Automation is a primary action"
+		],
+	},
+	{
+		"name": "Suicidal Devotee",
+		"unitType": "ILLF","uniqueTo": "Infernal Legion",
+		"movement": 2,"strength": 30,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","Self-destructs when attacking","[+45] Strength <when attacking>","[+100]% Strength <vs [Vehicle] units>",
+		],
+	},
+	{
+		"name": "Indoctrinated Soldier",
+		"unitType": "ILLF","uniqueTo": "Infernal Legion",
+		"movement": 2,"strength": 50,"cost": 120
+		"uniques": [
+			"Organic","Human","Infantry","[+100]% Strength <vs [Wounded] units>",
+		],
+	},
+	{
+		"name": "Makeshift Technical",
+		"unitType": "ILMT","uniqueTo": "Infernal Legion",
+		"movement": 4,"strength": 55,"cost": 120
+		"uniques": [
+			"Mechanical","Vehicle","Light Vehicle","[+50]% Strength <vs [Infantry] units>","Can move after attacking", "No defensive terrain bonus",
+		],
+	},
+	{
+		"name": "Captured Battle Tank",
+		"unitType": "ILCBT","uniqueTo": "Infernal Legion",
+		"movement": 5,"strength": 60,"cost": 120
+		"uniques": [
+			"Mechanical","Vehicle","Heavy Vehicle","Armour","[+50]% Strength <vs [Light Vehicle] units>","Can move after attacking", "No defensive terrain bonus",
+		],
+	}
 ]
