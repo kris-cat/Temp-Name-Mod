@@ -41,4 +41,13 @@
     {
         "name": "BPAFS","movementType": "Air"
     },
+    {
+        "name": "BPASHG","movementType": "Air"
+    },
+    {
+        "name": "BPASHH","movementType": "Air"
+    },
+    {
+        "name": "BPASHT","movementType": "Air"
+    },
 ]
