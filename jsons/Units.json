@@ -216,15 +216,77 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Guardian",
+		"unitType": "ECGUA","uniqueTo": "Ecclesia Catholica",
+		"movement": 2,"strength": 50,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","[+15]% Strength bonus for [Human] units within [2] tiles <when defending>","All adjacent units heal [+10] HP when healing",
+		]
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Archangel",
+		"unitType": "ECARC","uniqueTo": "Ecclesia Catholica",
+		"movement": 4,"strength": 60,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","Can move after attacking","[+1] additional attacks per turn",
+		]
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Power",
+		"unitType": "ECPOW","uniqueTo": "Ecclesia Catholica",
+		"movement": 3,"strength": 50,"rangedStrength": 40,"range": 1,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","Can move after attacking","Ignores Zone of Control"
+		]
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Princedom",
+		"unitType": "ECPRI","uniqueTo": "Ecclesia Catholica",
+		"movement": 3,"strength": 60,,"range": 1,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","[+100]% Strength <vs cities>",
+		]
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Virtue",
+		"unitType": "ECVIR","uniqueTo": "Ecclesia Catholica",
+		"movement": 3,"strength": 50,"rangedStrength": 25,"range": 3,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","Nuclear weapon of Strength [0]","Blast radius [1]",
+		]
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Providence",
+		"unitType": "ECPRO","uniqueTo": "Ecclesia Catholica",
+		"movement": 3,"strength": 50,"rangedStrength": 50,"range": 4,"cost": 65,
+		"uniques": [
+			"Magical","Angelic","Infantry","Unbuildable","All tiles cost 1 movement","Ranged attacks may be performed over obstacles","Must set up to ranged attack",
+		]
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Divine Punishment",
 		"unitType": "ECMissile", "uniqueTo": "Ecclesia Catholica",
-		"movement": 1,"strength": 45,"rangedStrength": 45,"range": 8,"cost": 25,
+		"movement": 1,"strength": 45,"rangedStrength": 45,"range": 8,"cost": 100,
 		"uniques": [
-			"[-100]% maintenance costs","[+15] Strength <vs [Magical]>"
+			"Angelic","[-100]% maintenance costs","Unbuildable","[+15] Strength <vs [Magical]>"
 		],
 		"attackSound": "missile"
 	},
-	
+	{
+		"name": "Rod of God",
+		"unitType": "ECMissile", "uniqueTo": "Ecclesia Catholica",
+		"movement": 1,"strength": 999,"rangedStrength": 999,"range": 8,"cost": 500,
+		"uniques": [
+			"Angelic","[-100]% maintenance costs","Unbuildable","Nuclear weapon of Strength [3]","Blast radius [1]",
+		],
+		"attackSound": "missile"
+	},
 	//Infernal Legion
 	{
 		"name": "Cult Leader",
