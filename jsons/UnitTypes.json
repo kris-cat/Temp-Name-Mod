@@ -71,7 +71,7 @@
         "name": "ECEXO","movementType": "Land"
     },
     {
-        "name": "ECMissile","movementType": "Land"
+        "name": "ECMissile","movementType": "Air"
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
     //Infernal Legion
