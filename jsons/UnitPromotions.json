@@ -1,0 +1,22 @@
+[
+    {
+		"name": "Wristwatch Computer",
+		"uniques": ["[50]% XP gained from combat"]
+	},
+    {
+		"name": "Crusader March",
+		"uniques": ["Unit will heal every turn, even if it performs an action","[-5] HP when healing"]
+	},
+    {
+		"name": "Angelic Grace",
+		"uniques": ["All tiles cost 1 movement","May travel on Water tiles without embarking"]
+	},
+    {
+		"name": "Cult Fatalism",
+		"uniques": ["[-10]% Strength <when defending>","[+10]% Strength <when attacking>","No damage penalty for wounded units"]
+	},
+    {
+		"name": "Demonic Nature",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+	},
+]
