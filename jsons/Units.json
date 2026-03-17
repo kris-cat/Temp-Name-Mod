@@ -105,7 +105,7 @@
 	},
 	{
 		"name": "Black Hawk Helicopter",
-		"unitType": "BPABH","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough I",
+		"unitType": "BPABH","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough II",
 		"movement": 4,"strength": 50,"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light Vehicle","Airship",
