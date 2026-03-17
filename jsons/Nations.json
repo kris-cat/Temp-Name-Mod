@@ -16,6 +16,7 @@
         "outerColor": [255,255,255],"innerColor": [0,0,0],
 		"uniqueName": "Faction Features",
 		"uniques": [
+			"[Infantry] units gain the [Wristwatch Computer] promotion <hidden from users>",
         ],
 		"cities": [
             "405 Array Avenue","77 Tom Road","Area 51","Plant 42","Cheyenne Mountain Complex","The Rock","Seattle","Camp Peary","Dugway Proving Ground","Trinity Site",
@@ -53,6 +54,8 @@
 		"outerColor": [255, 191, 0],"innerColor": [255, 255, 255],
 		"uniqueName": "Faction Features",
 		"uniques": [
+			"[Human] units gain the [Crusader March] promotion <hidden from users>",
+			"[Angelic] units gain the [Angelic Grace] promotion <hidden from users>",
 			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units> <hidden from users>",
 			"May buy [Angelic] units with [Faith] [in all cities] <hidden from users>",
         ],
@@ -74,6 +77,7 @@
 		"outerColor": [161, 70, 126],"innerColor": [0, 0, 0],
 		"uniqueName": "Faction Features",
 		"uniques": [
+			"[Human] units gain the [Cult Fatalism] promotion <hidden from users>",
         ],
 		"cities": [
 			"Vatican","Avignon","Andorra","Cologne","Mainz"
