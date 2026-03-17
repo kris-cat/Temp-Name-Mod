@@ -41,7 +41,7 @@
 	{
 		"name": "Xirang",
 		"resourceType": "Bonus"
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Flood plains"],
 		"food": 1,
 		"uniques": []
 	},
