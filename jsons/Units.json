@@ -18,14 +18,14 @@
 	//Bureau of Paranormal Activities
 	{
 		"name": "Government Man",
-		"unitType": "Civilian","uniqueTo": "Bureau of Paranormal Activities","replaces": "Settler",
+		"unitType": "Civilian","uniqueTo": "Bureau of Paranormal Activities","replaces": "Settler","requiredTech": "Foundation",
 		"movement": 2,"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>",]
 		"hurryCostModifier": 20
 	},
 	{
 		"name": "UGV Handyman",
-		"unitType": "BPAUGVH","uniqueTo": "Bureau of Paranormal Activities","replaces": "Worker",
+		"unitType": "BPAUGVH","uniqueTo": "Bureau of Paranormal Activities","replaces": "Worker","requiredTech": "Foundation",
 		"movement": 2,"cost": 120
 		"uniques": [
 			"Mechanical","Robot","Worker",
@@ -34,7 +34,7 @@
 	},
 	{
 		"name": "Squad Commander",
-		"unitType": "BPASM","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPASM","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion I",
 		"movement": 2,"strength": 53,"cost": 150,
 		"uniques": [
 			"Organic","Human","Infantry","Leader",
@@ -45,7 +45,7 @@
 	},
 	{
 		"name": "Bureau Ranger",
-		"unitType": "BPABR","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPABR","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Foundation",
 		"movement": 2,"strength": 50,"cost": 120,
 		"uniques": [
 			"Organic","Human","Infantry",
@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "Bureau Grenadier",
-		"unitType": "BPABG","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPABG","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Advancement I",
 		"movement": 2,"strength": 50,"cost": 120,
 		"uniques": [
 			"Organic","Human","Infantry",
@@ -65,7 +65,7 @@
 	},
 	{
 		"name": "Bureau Marksman",
-		"unitType": "BPABM","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPABM","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Development I",
 		"movement": 2,"strength": 42,"range": 2,"rangedStrength": 42,"cost": 120,
 		"uniques": [
 			"Organic","Human","Infantry",
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "IFV Rioter",
-		"unitType": "BPAIFVRR","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPAIFVRR","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough I",
 		"movement": 3,"strength": 55,"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light Vehicle","Transport",
@@ -95,7 +95,7 @@
 	},
 	{
 		"name": "UGV Darrell",
-		"unitType": "BPAUGVDL","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPAUGVDL","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough II",
 		"movement": 4,"strength": 50,"range": 1,"rangedStrength": 50,"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light Vehicle","Armour",
@@ -105,7 +105,7 @@
 	},
 	{
 		"name": "Black Hawk Helicopter",
-		"unitType": "BPABH","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPABH","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough I",
 		"movement": 4,"strength": 50,"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light Vehicle","Airship",
@@ -116,7 +116,7 @@
 	},
 	{
 		"name": "Skyranger Aircraft",
-		"unitType": "BPASR","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPASR","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Innovation II",
 		"movement": 1,"strength": 45,"rangedStrength": 45,"range": 8,"interceptRange": 8,"cost": 175,
 		"uniques": [
 			"Mechanical","Aircraft","Fighter",
@@ -127,7 +127,7 @@
 	},
 	{
 		"name": "Firestorm Bomber",
-		"unitType": "BPAFS","uniqueTo": "Bureau of Paranormal Activities",
+		"unitType": "BPAFS","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Innovation II",
 		"movement": 1,"strength": 52,"rangedStrength": 52,"range": 10,"cost": 175,
 		"uniques": [
 			"Mechanical","Aircraft","Bomber",
