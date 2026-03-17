@@ -1,0 +1,158 @@
+[
+	{
+        "columnNumber": 0,
+		"era": "Preparation Level: 1",
+		"techCost": 50,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Foundation",
+				"row": 3,
+				"uniques": ["Starting tech"]
+			}
+		]
+    },
+	{
+        "columnNumber": 1,
+		"era": "Preparation Level: 1",
+		"techCost": 250,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Advancement I",
+				"row": 2,
+				"uniques": []
+			}
+			
+            {
+                "name": "Development I",
+				"row": 4,
+				"uniques": []
+			}
+		]
+    },
+	{
+        "columnNumber": 2,
+		"era": "Preparation Level: 1",
+		"techCost": 250,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Breakthrough I",
+				"row": 1,
+				"uniques": []
+			}
+			
+            {
+                "name": "Expansion I",
+				"row": 3,
+				"uniques": []
+			}
+			{
+                "name": "Innovation I",
+				"row": 5,
+				"uniques": []
+			}
+		]
+    },
+	{
+        "columnNumber": 3,
+		"era": "Preparation Level: 2",
+		"techCost": 500,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Advancement II",
+				"row": 2,
+				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+			}
+			
+            {
+                "name": "Development II",
+				"row": 4,
+				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+			}
+		]
+    },
+	{
+        "columnNumber": 4,
+		"era": "Preparation Level: 2",
+		"techCost": 500,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Breakthrough II",
+				"row": 1,
+				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+			}
+			
+            {
+                "name": "Expansion II",
+				"row": 3,
+				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+			}
+			{
+                "name": "Innovation II",
+				"row": 5,
+				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+			}
+		]
+    },
+	{
+        "columnNumber": 5,
+		"era": "Preparation Level: 3",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Advancement III",
+				"row": 2,
+				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+			}
+			
+            {
+                "name": "Development III",
+				"row": 4,
+				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+			}
+		]
+    },
+	{
+        "columnNumber": 6,
+		"era": "Preparation Level: 3",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Breakthrough III",
+				"row": 1,
+				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+			}
+			
+            {
+                "name": "Expansion III",
+				"row": 3,
+				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+			}
+			{
+                "name": "Innovation III",
+				"row": 5,
+				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+			}
+		]
+    },
+]
