@@ -50,7 +50,7 @@
 	{
 		"name": "Missile and Radar Systems",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"cost": 250,"cityStrength": 15,
+		"cost": 250,"cityStrength": 10,
 		"uniques": ["[+2] Sight <with a garrison>","Destroyed when the city is captured"]
 	},
 	//Ecclesia Catholica Buildings
@@ -81,7 +81,7 @@
 	{
 		"name": "Blessed Fortifications",
 		"uniqueTo": "Ecclesia Catholica",
-		"cost": 250,"cityHealth": 50,"cityStrength": 20,"faith": 2,
+		"cost": 250,"cityHealth": 50,"cityStrength": 10,"faith": 2,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 ]
