@@ -2,7 +2,7 @@
     "isBaseRuleset":true,
     "constants": {
         "cityAirUnitCapacity": 3,
-		"cityStrengthBase": 30.0,
+		"cityStrengthBase": 20.0,
 		"cityStrengthPerPop": 1.0,
 		"cityStrengthFromTechsMultiplier": 1.0,
         "cityStrengthFromTechsExponent": 1.0,
