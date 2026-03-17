@@ -8,4 +8,34 @@
 			{"text":"Marks the center of a city"},
 		]
 	},
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 5,
+		"uniques": ["Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Haunted Overgrowth",
+		"turnsToBuild": 5,
+		"uniques": ["Excluded from map editor",],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Ice Spikes",
+		"turnsToBuild": 5,
+		"uniques": ["Excluded from map editor",],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Floating Islands",
+		"turnsToBuild": 5,
+		"uniques": ["Excluded from map editor",],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fungal Forest",
+		"turnsToBuild": 5,
+		"uniques": ["Excluded from map editor",],
+		"shortcutKey": "X"
+	},
 ]
