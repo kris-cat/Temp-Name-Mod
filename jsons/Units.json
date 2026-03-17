@@ -165,6 +165,14 @@
 	//Zeta Reticulans
 	//Ecclesia  Catholica
 	{
+		"name": "Living Martyr",
+		"unitType": "ECPRC","uniqueTo": "Ecclesia Catholica",
+		"movement": 2,"strength": 40,"cost": 120
+		"uniques": [
+			"Magical","Human","Infantry","[-100]% Health from pillaging tiles <hidden from users>","Unbuildable","Can only heal by pillaging <hidden from users>","Comment [Cannot heal]","No damage penalty for wounded units"
+		],
+	},
+	{
 		"name": "Inquisitor",
 		"unitType": "ECINQ","uniqueTo": "Ecclesia Catholica","replaces": "Settler",
 		"movement": 2,"strength": 55,"cost": 100,
