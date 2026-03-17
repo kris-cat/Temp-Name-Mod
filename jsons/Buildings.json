@@ -19,8 +19,7 @@
 	//Bureau of Paranormal Investigations Buildings
 	//Starting Buildings
 	{
-		"name": "Main Access Lift",
-"uniqueTo": "Bureau of Paranormal Activities",
+		"name": "Main Access Lift","uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 50,"hurryCostModifier": 25,"cityHealth": 10,"cityStrength": 5,
 		"uniques": ["Destroyed when the city is captured" ]
 		"civilopediaText": [{"text": "Fortified entry point to the local Bureau military facility. Creates a choke point that allows for easy defence."}]
@@ -94,8 +93,9 @@
 		"cost": 200,"cityHealth": 25,"cityStrength": 10,
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	//Preparation Level Three Building
 	{
-		"name": "Missile and Radar Systems","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion II",
+		"name": "Missile and Radar Systems","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion III",
 		"cost": 250,"cityStrength": 10,
 		"uniques": ["[+2] Sight <with a garrison>","Destroyed when the city is captured"]
 	},
