@@ -1,0 +1,19 @@
+[
+    //Capital Buildings
+    {
+		"name": "BPA Headquarters",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"isNationalWonder": true,"production": 3,"science": 3,"gold": 3,"culture": 1,"cityStrength": 2.5,"cost": 0,
+		"uniques": [
+			"Indicates the capital city","Provides [1] [Leadership Point]"
+		]
+	},
+    {
+		"name": "Second Basilica for St. Peter",
+		"uniqueTo": "Ecclesia Catholica",
+		"isNationalWonder": true,"production": 2,"science": 3,"gold": 2,"faith": 2,"culture": 1,"cityStrength": 2.5,"cost": 0,
+		"uniques": [
+			"Indicates the capital city","Provides [1] [Leadership Point]"
+		]
+	},
+]
