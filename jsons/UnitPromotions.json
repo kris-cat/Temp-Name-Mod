@@ -5,7 +5,7 @@
 	},
     {
 		"name": "Crusader March",
-		"uniques": ["Unit will heal every turn, even if it performs an action","[-5] HP when healing"]
+		"uniques": ["Unit will heal every turn, even if it performs an action","[-5] HP when healing","Free [Living Martyr] appears <upon being defeated> <with [5]% chance>"]
 	},
     {
 		"name": "Angelic Grace",
