@@ -1,0 +1,23 @@
+[
+	{
+		"name":"Scientist","science":3,"color": [0,0,255]
+	},
+	{
+		"name":"Financier","gold":4,"color": [255,215,0]
+	},
+	{
+		"name":"Advisor","culture":3,"color": [160,32,240]
+	},
+	{
+		"name":"Engineer","production":3,"color": [139,69,19]
+	},
+	{
+		"name":"Farmer","food":4,"color": [39,206,83]
+	},
+    {
+		"name":"Priest","faith":3,"color": [204,204,204]
+	},
+	{
+		"name":"Propagandist","happiness":4,"color": [241,13,12]
+	},
+]
