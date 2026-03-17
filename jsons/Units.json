@@ -66,7 +66,7 @@
 	{
 		"name": "Bureau Marksman",
 		"unitType": "BPABM","uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 2,"strength": 42,"range": 2,"rangedStrength": 45,"cost": 120,
+		"movement": 2,"strength": 42,"range": 2,"rangedStrength": 42,"cost": 120,
 		"uniques": [
 			"Organic","Human","Infantry",
 		]
@@ -96,7 +96,7 @@
 	{
 		"name": "UGV Darrell",
 		"unitType": "BPAUGVDL","uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 4,"strength": 55,"range": 1,"rangedStrength": 55,"cost": 225,
+		"movement": 4,"strength": 50,"range": 1,"rangedStrength": 50,"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light Vehicle","Armour",
 			"Can move after attacking", "No defensive terrain bonus",
