@@ -72,13 +72,13 @@
             {
                 "name": "Advancement II",
 				"row": 2,
-				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 2]><hidden from users>"]
 			}
 			
             {
                 "name": "Development II",
 				"row": 4,
-				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 2]><hidden from users>"]
 			}
 		]
     },
@@ -93,18 +93,18 @@
             {
                 "name": "Breakthrough II",
 				"row": 1,
-				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 2]><hidden from users>"]
 			}
 			
             {
                 "name": "Expansion II",
 				"row": 3,
-				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 2]><hidden from users>"]
 			}
 			{
                 "name": "Innovation II",
 				"row": 5,
-				"uniques": ["Unavailable <before the [Preparation Level: 2]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 2]><hidden from users>"]
 			}
 		]
     },
@@ -119,13 +119,13 @@
             {
                 "name": "Advancement III",
 				"row": 2,
-				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 3]><hidden from users>"]
 			}
 			
             {
                 "name": "Development III",
 				"row": 4,
-				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 3]><hidden from users>"]
 			}
 		]
     },
@@ -140,18 +140,18 @@
             {
                 "name": "Breakthrough III",
 				"row": 1,
-				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 3]><hidden from users>"]
 			}
 			
             {
                 "name": "Expansion III",
 				"row": 3,
-				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 3]><hidden from users>"]
 			}
 			{
                 "name": "Innovation III",
 				"row": 5,
-				"uniques": ["Unavailable <before the [Preparation Level: 3]>"]
+				"uniques": ["Unavailable <before the [Preparation Level: 3]><hidden from users>"]
 			}
 		]
     },
