@@ -17,39 +17,85 @@
 		]
 	},
 	//Bureau of Paranormal Investigations Buildings
+	//Starting Buildings
 	{
-		"name": "Private Agent Residences",
-		"uniqueTo": "Bureau of Paranormal Activities",
-		"cost": 125,"hurryCostModifier": 25,"happiness": 2, "culture": 2,"maintenance": 1,
+		"name": "Main Access Lift",
+"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 50,"hurryCostModifier": 25,"cityHealth": 10,"cityStrength": 5,
+		"uniques": ["Destroyed when the city is captured" ]
+		"civilopediaText": [{"text": "Fortified entry point to the local Bureau military facility. Creates a choke point that allows for easy defence."}]
+	},
+	{
+		"name": "Agent Living Accommodations","uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 50,"hurryCostModifier": 25,"food": 3,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+		"civilopediaText": [{"text": "Rudimentory barracks, used to house Bureau Agents. Not the most pleasant, they however cover all basic needs."}]
+	},
+	{
+		"name": "Facility Workshop","uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 50,"hurryCostModifier": 25,"production": 2,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+		"civilopediaText": [{"text": "A set of industrial equipment used to make the most basic weaponry. Comes with blueprints and"}]
+	},
+	//Preparation Level One Buildings
+	{
+		"name": "Greenhouse Complex","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Advancement I",
+		"cost": 100,"hurryCostModifier": 25,"food": 2,"specialistSlots": {"Farmer": 2},"maintenance": 2,
 		"uniques": ["Destroyed when the city is captured" ]
 	},
 	{
-		"name": "Underground Hydroponics",
-		"uniqueTo": "Bureau of Paranormal Activities",
-		"cost": 100,"hurryCostModifier": 25,"food": 3,"maintenance": 1,
+		"name": "Base Laboratory","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Advancement I",
+		"cost": 100,"hurryCostModifier": 25,"specialistSlots": {"Scientist": 1},"maintenance": 1,
+		"uniques": ["[+1 Science] per [3] population [in this city]","Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Private Agent Residences","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Development I",
+		"cost": 100,"hurryCostModifier": 25,"happiness": 3,"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured" ]
 	},
 	{
-		"name": "Bureau Mega Mall",
-		"uniqueTo": "Bureau of Paranormal Activities",
-		"cost": 100,"hurryCostModifier": 25,"gold": 4, "happiness": 3,
+		"name": "State-Owned Corpos","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Development I",
+		"cost": 100,"hurryCostModifier": 25,"gold": 2,"specialistSlots": {"Financier": 1},
 		"uniques": ["Destroyed when the city is captured" ]
 	},
 	{
-		"name": "Security Station",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"name": "Vehicle Assembly Plant","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Breakthrough I"
+		"cost": 150,"production": 2,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Specialisation Slot]","[+15]% Production when constructing [Vehicle] units [in this city]","Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Agent Training Facilities","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion I",
+		"cost": 150,"hurryCostModifier": 25,"production": 1,"specialistSlots": {"Propagandist": 1},"maintenance": 1,
+		"uniques": ["Consumes [1] [Specialisation Slot]","New [Infantry] units start with [15] XP [in this city]","[+15]% Production when constructing [Infantry] units [in this city]","Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Supernatural Residential Zone","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Innovation I",
+		"cost": 150,"percentStatBonus": {"gold": 25},"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Specialisation Slot]","[+1 Gold] from every specialist [in this city]","Destroyed when the city is captured" ]
+	},
+	//Preparation Level Two Buildings
+	{
+		"name": "Underground Hydroponics","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Development II",
+		"cost": 200,"hurryCostModifier": 25,"specialistSlots": {"Farmer": 2},"maintenance": 2,
+		"uniques": ["[+1 Food] from every [Farmer]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bureau Mega Mall","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Development II",
+		"cost": 200,"hurryCostModifier": 25,"gold": 2,"happiness": 3,"specialistSlots": {"Financier": 1},
+		"uniques": ["[+1 Gold] from every [Financier]","Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Security Station","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion II",
 		"cost": 150,"hurryCostModifier": 25,
 		"uniques": ["[+3 Happiness] [in this city] <with a garrison>","Removes extra unhappiness from annexed cities","Destroyed when the city is captured"]
 	},
 	{
-		"name": "Facility Shielding",
-		"uniqueTo": "Bureau of Paranormal Activities",
-		"cost": 200,"cityHealth": 50,"cityStrength": 5,
+		"name": "Facility Shielding","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion II",
+		"cost": 200,"cityHealth": 25,"cityStrength": 10,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Missile and Radar Systems",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"name": "Missile and Radar Systems","uniqueTo": "Bureau of Paranormal Activities","requiredTech": "Expansion II",
 		"cost": 250,"cityStrength": 10,
 		"uniques": ["[+2] Sight <with a garrison>","Destroyed when the city is captured"]
 	},
