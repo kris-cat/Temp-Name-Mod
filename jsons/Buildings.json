@@ -16,4 +16,72 @@
 			"Indicates the capital city","Provides [1] [Leadership Point]"
 		]
 	},
+	//Bureau of Paranormal Investigations Buildings
+	{
+		"name": "Private Agent Residences",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 125,"hurryCostModifier": 25,"happiness": 2, "culture": 2,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Underground Hydroponics",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,"hurryCostModifier": 25,"food": 3,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Bureau Mega Mall",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,"hurryCostModifier": 25,"gold": 4, "happiness": 3,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Security Station",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 150,"hurryCostModifier": 25,
+		"uniques": ["[+3 Happiness] [in this city] <with a garrison>","Removes extra unhappiness from annexed cities","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Facility Shielding",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 200,"cityHealth": 50,"cityStrength": 5,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Missile and Radar Systems",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 250,"cityStrength": 15,
+		"uniques": ["[+2] Sight <with a garrison>","Destroyed when the city is captured"]
+	},
+	//Ecclesia Catholica Buildings
+	{
+		"name": "Wine Monastery",
+		"uniqueTo": "Ecclesia Catholica",
+		"cost": 125,"hurryCostModifier": 25, "faith": 1, "culture": 1, "food": 2,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Catholic Cathedral",
+		"uniqueTo": "Ecclesia Catholica",
+		"cost": 125,"hurryCostModifier": 25, "faith": 1, "happiness": 3,"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Penitential Facility",
+		"uniqueTo": "Ecclesia Catholica",
+		"cost": 125,"hurryCostModifier": 25, "culture": 3, "faith": 2,"maintenance": 1,
+		"uniques": ["Removes extra unhappiness from annexed cities","Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Crusader Tithe Collectors",
+		"uniqueTo": "Ecclesia Catholica",
+		"cost": 100,"hurryCostModifier": 25,"gold": 5,
+		"uniques": ["Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Blessed Fortifications",
+		"uniqueTo": "Ecclesia Catholica",
+		"cost": 250,"cityHealth": 50,"cityStrength": 20,"faith": 2,
+		"uniques": ["Destroyed when the city is captured"]
+	},
 ]
